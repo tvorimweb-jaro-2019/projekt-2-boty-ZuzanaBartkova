@@ -59,6 +59,7 @@ html {
     }
 
 .vizual {
+    position: relative;
     float: left;
     background: linear-gradient(#06d7c1, #50cc49);
     padding: 30px;
@@ -79,20 +80,20 @@ html {
 .bota {
     display: block;
     margin-left: -100px ;
-    position: relative;
+    
 }
 
 .cenovka {
-    
-    position: relative;
-    top: -80px;
-    left: 130px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
     z-index: 1;    
 }
 
 .cena {
     font-weight: 500;
     font-size: 28px;
+    text-align: right;
 }
 
 .zaruka {
@@ -119,6 +120,7 @@ html {
 .nazev {
     font-weight: 500;
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 .produkt {
